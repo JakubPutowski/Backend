@@ -1,5 +1,6 @@
-﻿using ApplicationCore.Interfaces.Criteria;
-using ApplicationCore.Interfaces.Repository;
+﻿using ApplicationCore.Commons.Repository;
+using ApplicationCore.Models;
+using ApplicationCore.Specifications;
 
 namespace BackendLab01;
 

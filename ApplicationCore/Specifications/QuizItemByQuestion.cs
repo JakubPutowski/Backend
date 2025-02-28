@@ -1,6 +1,7 @@
-﻿using BackendLab01;
+﻿using ApplicationCore.Commons.Specification;
+using BackendLab01;
 
-namespace ApplicationCore.Interfaces.Criteria;
+namespace ApplicationCore.Specifications;
 
 public class QuizItemByQuestion: BaseSpecification<QuizItem>
 {

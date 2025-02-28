@@ -1,4 +1,4 @@
-﻿using ApplicationCore.Interfaces.Repository;
+﻿using ApplicationCore.Commons.Repository;
 
 namespace BackendLab01;
 

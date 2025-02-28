@@ -1,7 +1,5 @@
-using ApplicationCore.Interfaces.Repository;
 using BackendLab01;
 using Infrastructure.Memory;
-using Infrastructure.Memory.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 

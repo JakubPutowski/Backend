@@ -1,20 +1,12 @@
-﻿using ApplicationCore.Interfaces.Repository;
+﻿using ApplicationCore.Commons.Repository;
 
 namespace BackendLab01;
 
-public class Quiz: IIdentity<int>
+public class Quiz(int id, List<QuizItem> items, string title) : IIdentity<int>
 {
-    public int Id { get; set; }
-    
-    public string Title { get; }
-    
-    public List<QuizItem> Items { get; }
+    public int Id { get; set; } = id;
 
-    public Quiz(int id, List<QuizItem> items, string title)
-    {
-        Id = id;
-        Items = items;
-        Title = title;
-    }
-    
+    public string Title { get; } = title;
+
+    public List<QuizItem> Items { get; } = items;
 }
