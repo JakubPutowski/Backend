@@ -1,5 +1,6 @@
 using ApplicationCore.Commons.Repository;
 using ApplicationCore.Models;
+using ApplicationCore.Models.QuizAggregate;
 using BackendLab01;
 using Infrastructure.Memory.Generators;
 using Infrastructure.Memory.Repositories;

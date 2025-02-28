@@ -1,6 +1,6 @@
 ﻿using ApplicationCore.Commons.Repository;
 
-namespace BackendLab01;
+namespace ApplicationCore.Models.QuizAggregate;
 
 public class QuizItem(int id, string question, List<string> incorrectAnswers, string correctAnswer)
     : IIdentity<int>

@@ -1,12 +1,12 @@
+using ApplicationCore.Commons.Repository;
+using ApplicationCore.Models;
 using BackendLab01;
 using Infrastructure.Memory;
+using Infrastructure.Memory.Generators;
+using Infrastructure.Memory.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
-
-
 builder.Services.AddRazorPages();
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
