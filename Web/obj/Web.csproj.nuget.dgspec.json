@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Web\\Web.csproj": {}
+    "C:\\Users\\user\\RiderProjects\\Backend\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -104,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -130,16 +130,16 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           },
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -224,14 +224,14 @@
         }
       }
     },
-    "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Web\\Web.csproj": {
+    "C:\\Users\\user\\RiderProjects\\Backend\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\Backend\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Web\\obj\\",
+        "outputPath": "C:\\Users\\user\\RiderProjects\\Backend\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -249,11 +249,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

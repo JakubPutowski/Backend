@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yseaYh87wUs=",
+  "dgSpecHash": "u6wrH4NdHiU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KuouVBf+hz4=",
+  "dgSpecHash": "z3tb571gCxQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\RiderProjects\\wsei-backend-lab\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
