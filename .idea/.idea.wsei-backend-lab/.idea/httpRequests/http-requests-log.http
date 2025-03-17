@@ -4,6 +4,16 @@ User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
 Accept-Encoding: br, deflate, gzip, x-gzip
 content-length: 0
 
+<> 2025-03-17T180931.200.json
+
+###
+
+GET http://localhost:5272/api/v1/quizzes/example
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
 <> 2025-03-17T175216.200.json
 
 ###
