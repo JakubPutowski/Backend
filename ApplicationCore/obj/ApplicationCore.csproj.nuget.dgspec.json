@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {}
+    "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\jputo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jputo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\user\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\jputo\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0": {
           "targetAlias": "net9.0",
@@ -100,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\user\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\jputo\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

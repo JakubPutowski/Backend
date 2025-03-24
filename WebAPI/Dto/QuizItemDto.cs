@@ -1,24 +1,26 @@
-﻿using ApplicationCore.Models.QuizAggregate;
+﻿using ApplicationCore.Commons.Functions;
+using ApplicationCore.Models.QuizAggregate;
 
-namespace WebAPI.Dto;
+namespace WebAPI.DTO;
 
 public class QuizItemDto
 {
-    public int Id { get; set; } 
-    public string Question { get; set; } 
-    public List<string> Options { get; set; }
-    
-    public static QuizItemDto of(QuizItem quizItem)
+    public int Id { get; set; }
+    public string Question { get; set; }
+    public List<string>Options;
+
+    private QuizItemDto()
     {
-        return new QuizItemDto
-        {
-            Id = quizItem.Id,
-            Question = quizItem.Question,
-            Options = quizItem.IncorrectAnswers
-                .Append(quizItem.CorrectAnswer) // Dodaj poprawną odpowiedź do listy niepoprawnych
-                .OrderBy(x => Guid.NewGuid())  // Losowa kolejność opcji
-                .ToList()
-        };
+        
+    }
+    public static QuizItemDto of(QuizItem quiz)
+    {
+        
+        var allOptions = quiz.IncorrectAnswers;
+        allOptions.Add(quiz.CorrectAnswer);
+        allOptions.Shuffle();
+        return new QuizItemDto() { Id = quiz.Id, Question = quiz.Question, Options = allOptions };
     }
     
+
 }

@@ -1,4 +1,148 @@
-﻿GET http://localhost:5272/api/v1/quizzes/example
+﻿GET http://localhost:5272/api/v1/quizzes/1/users/1/result
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-03-25T000411.200.json
+
+###
+
+POST http://localhost:5272/api/v1/quizzes/2/items/3
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 2,
+  "answer": "B"
+}
+
+<> 2025-03-25T000400.200.txt
+
+###
+
+GET http://localhost:5272/api/v1/quizzes/1/users/1/result
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-03-25T000337.200.json
+
+###
+
+POST http://localhost:5272/api/v1/quizzes/1/items/1
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "answer": "A"
+}
+
+<> 2025-03-25T000328.200.txt
+
+###
+
+GET http://localhost:5272/api/v1/quizzes/10
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-03-25T000321.404.json
+
+###
+
+POST http://localhost:5272/api/v1/quizzes/1/items/1
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "answer": "A"
+}
+
+<> 2025-03-25T000312.200.txt
+
+###
+
+POST http://localhost:5272/api/v1/quizzes/1/items/1
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userId": 1,
+  "answer": "A"
+}
+
+<> 2025-03-25T000302.200.txt
+
+###
+
+GET http://localhost:5272/api/v1/quizzes/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-03-25T000241.200.json
+
+###
+
+GET http://localhost:5272/api/v1/quizzes/
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-03-25T000233.200.json
+
+###
+
+GET http://localhost:5272/api/v1/quizzes/
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-03-24T235818.200.json
+
+###
+
+GET http://localhost:5272/api/v1/quizzes/example
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-03-24T233448.200.json
+
+###
+
+GET http://localhost:5272/api/v1/quizzes/
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-03-24T233431.200.json
+
+###
+
+GET http://localhost:5272/api/v1/quizzes/example
 Accept: application/json
 User-Agent: IntelliJ HTTP Client/JetBrains Rider 2024.2.6
 Accept-Encoding: br, deflate, gzip, x-gzip

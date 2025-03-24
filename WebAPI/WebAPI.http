@@ -1,2 +1,41 @@
-GET http://localhost:5272/api/v1/quizzes/example
+# Pobieranie wszystkich quizów
+GET http://localhost:5272/api/v1/quizzes/
 Accept: application/json
+###
+
+# Pobiera quiz o ID 1
+GET http://localhost:5272/api/v1/quizzes/1
+Accept: application/json
+###
+
+# Próbujemy pobrać nieistniejący quiz (ID 10) - powinno zwrócić 404
+GET http://localhost:5272/api/v1/quizzes/10
+Accept: application/json
+###
+
+# Zapisuje odpowiedź użytkownika (userId = 1) na pierwsze pytanie w quizie 1
+POST http://localhost:5272/api/v1/quizzes/1/items/1
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "answer": "A"
+}
+###
+
+
+# Pobiera wynik użytkownika (userId = 1) dla quizu o ID 1
+GET http://localhost:5272/api/v1/quizzes/1/users/1/result
+Accept: application/json
+###
+
+
+
+# Zapisuje odpowiedź dla innego pytania w quizie 2
+POST http://localhost:5272/api/v1/quizzes/2/items/3
+Content-Type: application/json
+
+{
+  "userId": 2,
+  "answer": "B"
+}

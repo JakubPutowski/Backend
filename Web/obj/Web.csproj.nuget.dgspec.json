@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\RiderProjects\\Backend\\Web\\Web.csproj": {}
+    "C:\\Users\\jputo\\RiderProjects\\Backend\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\jputo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jputo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\user\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\jputo\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0": {
           "targetAlias": "net9.0",
@@ -100,22 +100,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\user\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\jputo\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\jputo\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\jputo\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jputo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jputo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,16 +130,16 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           },
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -194,7 +194,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\user\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\jputo\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0": {
           "targetAlias": "net9.0",
@@ -220,22 +220,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\user\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\jputo\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\RiderProjects\\Backend\\Web\\Web.csproj": {
+    "C:\\Users\\jputo\\RiderProjects\\Backend\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\Backend\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\jputo\\RiderProjects\\Backend\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\RiderProjects\\Backend\\Web\\obj\\",
+        "projectPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\jputo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jputo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -249,11 +249,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\user\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\jputo\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\jputo\\RiderProjects\\Backend\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -297,7 +297,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\user\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\jputo\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
