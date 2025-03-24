@@ -6,54 +6,71 @@ using WebAPI.Dto;
 namespace WebAPI.Controllers;
 
 [Route("api/v1/quizzes")]
-[ApiController]
-public class QuizController : ControllerBase
-{
-    private readonly IQuizUserService _service;
-        
-    public QuizController(IQuizUserService service)
+    [ApiController]
+    public class QuizController : ControllerBase
     {
-        _service = service;
-    }
+        private readonly IQuizUserService _service;
         
-    [HttpGet]
-    public IEnumerable<QuizDto> FindAll()
-    {
-        return  _service.FindAllQuizzes().Select(u=>QuizDto.of(u));
-    }
-        
-    [HttpGet]
-    [Route("{id}")]
-    public ActionResult<QuizDto> FindById(int id)
-    {
-
-        if (_service.FindQuizById(id) is null)
-            return NotFound();
-        return Ok(QuizDto.of(_service.FindQuizById(id)));
-    } 
-        
-    [HttpPost]
-    [Route("{quizId}/items/{itemId}")]
-    public IActionResult SaveAnswer(int quizId, int itemId, [FromBody] QuizItemAnswerDto dto)
-    {
-        if (dto == null)
+        public QuizController(IQuizUserService service)
         {
-            return BadRequest("Invalid request body");
+            _service = service;
         }
 
-        _service.SaveUserAnswerForQuiz(quizId, itemId, dto.UserId, dto.Answer);
-    
-        return Ok("Answer saved successfully");
-    }
+
+        [HttpGet]
+        public IEnumerable<QuizDto> FindAll()
+        {
+            var quizzes = _service.FindAllQuizzes();
+
+            if (quizzes == null || !quizzes.Any())
+                return Enumerable.Empty<QuizDto>();
+
+            return quizzes.Select(u => QuizDto.of(u));
+        }
+
         
-    [HttpGet]
-    [Route("{quizId}/users/{userId}/result")]
-    public ActionResult<QuizResultDto> GetQuizResultForUser(int quizId, int userId)
-    {
-        int correctAnswers = _service.CountCorrectAnswersForQuizFilledByUser(quizId, userId);
+        [HttpGet]
+        [Route("{id}")]
+        public ActionResult<QuizDto> FindById(int id)
+        {
 
-        var resultDto = new QuizResultDto(quizId, userId, correctAnswers);
+            if (_service.FindQuizById(id) is null)
+                return NotFound();
+            return Ok(QuizDto.of(_service.FindQuizById(id)));
+        } 
+        
+        [HttpPost]
+        [Route("{quizId}/items/{itemId}")]
+        public IActionResult SaveAnswer(int quizId, int itemId, [FromBody] QuizItemAnswerDto dto)
+        {
+            if (dto == null)
+            {
+                return BadRequest("Invalid request body");
+            }
 
-        return Ok(resultDto);
+            _service.SaveUserAnswerForQuiz(quizId, itemId, dto.UserId, dto.Answer);
+    
+            return Ok("Answer saved successfully");
+        }
+        
+        [HttpGet]
+        [Route("{quizId}/users/{userId}/result")]
+        public ActionResult<object> GetQuizResultForUser(int quizId, int userId)
+        {
+            var feedback = _service.GetUserAnswersForQuiz(quizId, userId);
+            return new 
+            {
+                quizId = quizId,
+                userId = userId,
+                totalQuestions = _service.FindQuizById(quizId)?.Items.Count??0,
+                answers = feedback.Select(a =>
+                    new
+                    {
+                        question = a.QuizItem.Question,
+                        answer = a.Answer,
+                        isCorrect = a.IsCorrect()
+                    }
+                ).AsEnumerable()
+            };
+        }
     }
-}
