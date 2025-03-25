@@ -8,8 +8,9 @@ GET http://localhost:5272/api/v1/quizzes/1
 Accept: application/json
 ###
 
-# Próbujemy pobrać nieistniejący quiz (ID 10) - powinno zwrócić 404
-GET http://localhost:5272/api/v1/quizzes/10
+
+# Próbujemy pobrać nieistniejący quiz (ID 11) - powinno zwrócić 404
+GET http://localhost:5272/api/v1/quizzes/11
 Accept: application/json
 ###
 
@@ -39,3 +40,4 @@ Content-Type: application/json
   "userId": 2,
   "answer": "B"
 }
+###

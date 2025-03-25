@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oKDylm+uBXk=",
+  "dgSpecHash": "tptjcdCk9aU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jputo\\RiderProjects\\Backend\\ApplicationCore\\ApplicationCore.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jputo\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
-    "C:\\Users\\jputo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
-    "C:\\Users\\jputo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Users\\jakub.putowski\\RiderProjects\\Inne\\Backend\\ApplicationCore\\ApplicationCore.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
